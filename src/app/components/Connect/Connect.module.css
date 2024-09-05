@@ -1,0 +1,44 @@
+.container {
+    padding-block: 10rem;
+    background-color: var(--color-black);
+    padding-inline: 2rem;
+    position: relative;
+    width: 100vw;
+    margin-block: 10rem;
+}
+
+.CTA {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    margin-inline: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.heading {
+    font-size: 5rem;
+    line-height: 1.4;
+}
+
+@media screen and (min-width:810px) {
+    .CTA {
+        max-width: 600px;
+    }
+
+    .heading {
+        font-size: 6rem;
+    }
+
+    .container {
+        margin-block: 6.8rem 5rem;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .container {
+        padding-block: 15rem;
+        margin-inline: auto;
+    }
+}
