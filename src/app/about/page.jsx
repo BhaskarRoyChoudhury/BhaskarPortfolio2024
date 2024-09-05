@@ -33,7 +33,7 @@ const AboutPage = () => {
             transition={{ duration: 1.2, delay: .4 }}
             viewport={{ once: true }}
             className={styles.description}>
-            Experienced Front End Developer proficient in HTML, CSS, JavaScript, React Js, Next Js, TypeScript. Successfully delivered responsive web apps with seamless server-side integration. Excited to contribute expertise for the growth of an innovative organization.
+            Experienced Front End Developer proficient in HTML, CSS, JavaScript, React Js, Next Js, TypeScript, Framer. Successfully delivered responsive web apps with seamless server-side integration. Excited to contribute expertise for the growth of an innovative organization.
           </motion.p>
         </header>
         <motion.div
