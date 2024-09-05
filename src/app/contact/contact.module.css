@@ -1,0 +1,84 @@
+.contactContainer {
+  padding: 10rem 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  text-align: left;
+  background-color: #111;
+  background-color: black;
+  margin-block: 5rem;
+}
+
+.heading {
+  font-size: 4.2rem;
+  font-weight: 800;
+  color: #e2e8f0;
+}
+
+.description {
+  color: #999;
+  font-weight: 500;
+}
+
+.toast{
+  max-width: 86vw;
+  margin-left: auto;
+}
+
+/* email */
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.emailContainer {
+  display: flex;
+  gap: 1rem;
+  color: rgb(187, 187, 187);
+  font-weight: 600;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.formControl input,
+.formControl textarea {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: rgba(51, 51, 51, 0.33);
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  resize: none;
+  color: white;
+}
+
+.formControl input::placeholder,
+.formControl textarea::placeholder {
+  font-size: 16px;
+  color: rgb(187, 187, 187);
+  font-family: var(--ff-sans);
+}
+
+.contactContainer button{
+  width: 100%;
+}
+
+/* info container */
+
+.infoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1400px) {
+    .contactContainer{
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+}

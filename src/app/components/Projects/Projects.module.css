@@ -1,0 +1,187 @@
+/* Main container */
+
+.projectsContainer {
+  display: grid;
+  gap: 44px;
+  background-color: black;
+  background-color: var(--color-primary);
+  padding-block: 5rem;
+  padding-inline: 2rem;
+  font-weight: 200;
+  color: var(--color-text-dark);
+}
+
+
+.heading {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.iconDown {
+  width: 30px;
+  height: 30px;
+}
+
+.headingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3rem;
+  height: 61px;
+  margin-bottom: 2rem;
+}
+
+/* container */
+
+.container {
+  display: flex;
+  padding-bottom: 4rem;
+  flex-direction: column;
+  gap: 35px;
+  position: relative;
+}
+
+.container:not(:last-of-type):after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  opacity: 0.6;
+  display: block;
+  bottom: 0;
+  left: 0;
+  content: "";
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1;
+  height: 61px;
+}
+
+.pHeading {
+  font-size: 2rem;
+  font-family: inherit;
+  color: var(--color-text-dark);
+  font-weight: 200;
+  align-self: end;
+  padding-bottom: 0.7rem;
+}
+
+/* Project Image */
+
+.pImage {
+  object-fit: cover;
+  border-radius: 26px;
+  height: 212px;
+  object-position: top;
+}
+
+.pIndex {
+  font-size: 5.1rem;
+  font-weight: 500;
+}
+
+.pDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.icon {
+  display: none;
+}
+
+#project {
+  font-size: 13px;
+}
+
+/* header container */
+
+.headerContainer {
+  display: grid;
+  gap: 30px;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 810px) {
+  .projectsContainer {
+    padding: 4rem;
+    max-width: 1440px;
+    margin-inline: auto;
+  }
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+    height: 100%;
+    justify-self: start;
+  }
+
+  .pHeading {
+    align-self: start;
+  }
+
+  .pIndex {
+    font-size: 13.6rem;
+    letter-spacing: 12px;
+  }
+
+  .pImage {
+    border-radius: 18px;
+    height: 249px;
+    width: 60%;
+  }
+
+  .pDetails {
+    height: 45px;
+    font-size: 2.2rem;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .pImage {
+    height: 343px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .pImage {
+    height: 449px;
+  }
+
+  .pIndex {
+    font-size: 22rem;
+  }
+
+  .pHeading {
+    font-size: 3.7rem;
+  }
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
