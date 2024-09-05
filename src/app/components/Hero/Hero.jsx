@@ -53,7 +53,7 @@ const Hero = () => {
           <Button link="/about" className="btn--primary">
             About Me
           </Button>
-          <Button href="/Bhaskar2024.pdf" download className="btn--primary">
+          <Button href="/BhaskarResume.pdf" download className="btn--primary">
             Download CV
           </Button>
         </motion.div>
