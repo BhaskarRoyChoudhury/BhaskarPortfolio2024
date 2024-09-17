@@ -14,13 +14,13 @@ export const projectsData = [
     image: "/projects/project2.png",
     type: "Portfolio",
   },
-  {
-    title: "Careersly",
-    github: "https://github.com/BhaskarRoyChoudury99/vanlife",
-    liveDemo: "https://careersly.ca/",
-    image: "/projects/project3.png",
-    type: "Career",
-  },
+  // {
+  //   title: "Careersly",
+  //   github: "https://github.com/BhaskarRoyChoudury99/vanlife",
+  //   liveDemo: "https://careersly.ca/",
+  //   image: "/projects/project3.png",
+  //   type: "Career",
+  // },
   {
     title: "Audiophile",
     github:

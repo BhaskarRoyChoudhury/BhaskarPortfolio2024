@@ -46,7 +46,7 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 2.6 }}
+          transition={{ delay: 1.4, duration: 2.6 }}
           viewport={{ once: true, amount: 0.25 }}
           className={styles.btnContainer}
         >
