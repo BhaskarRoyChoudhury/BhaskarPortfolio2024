@@ -96,15 +96,15 @@ export const education = [
 
 export const experience = [
   {
-    title: "Front End Developer",
-    duration: "Apr 2024 - Aug 2024",
-    place: "Pride East Entertainments Pvt Ltd",
+    title: "Freelance",
+    duration: "Nov 2023 - Present",
+    place: "Online",
     location: "Guwahati"
   },
   {
-    title: "Freelance",
-    duration: "Nov 2023 - March 2024",
-    place: "Naesta Tech",
+    title: "Front End Developer",
+    duration: "Apr 2024 - Aug 2024",
+    place: "Pride East Entertainments Pvt Ltd",
     location: "Guwahati"
   },
   {
