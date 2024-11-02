@@ -102,7 +102,7 @@ export const experience = [
     location: "Guwahati"
   },
   {
-    title: "Front End Developer | Assistnat Editor",
+    title: "Front End Developer | Assistant Editor",
     duration: "Apr 2024 - Aug 2024",
     place: "Pride East Entertainments Pvt Ltd",
     location: "Guwahati"
