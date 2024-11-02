@@ -99,7 +99,7 @@ export const experience = [
     title: "Freelance",
     duration: "Nov 2023 - Present",
     place: "Online",
-    location: "Online"
+    location: "Guwahati"
   },
   {
     title: "Front End Developer | Assistnat Editor",
